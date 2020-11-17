@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music Hospital</title>
+
+    <!-- Icon for website -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/website-main-icon.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fontawesome Link -->
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- Script Links -->
+  	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="main-style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
+
+  </head>
+
+  <body>
+
+    <!-- Auto music (in-the-hall-of-the-mountain-king-extended)-->
+     <embed class="auto-music" src="sounds/bensound-onceagain.mp3"
+     loop="true" autostart="true" width="0" height="0">
+
+    <header class="header">
+
+      <div class="middleHeader">
+        <h1 class="top">Music Hospital</h1>
+          <hr>
+        <h2 class="top">Music, Technic & Health</h2>
+
+        <br> <br> <br> <br> <br>
+
+        <div class="navbar-nav">
+          <button type="button" class="btn btn-primary btn-lg" name="button"><a class="nav-link" href="index.html">Homepage</a></button>
+          <button type="button" class="btn btn-primary btn-lg" name="button"><a class="nav-link" href="about.html">AboutUs</a></button>
+          <button type="button" class="btn btn-primary btn-lg" name="button"><a class="nav-link" href="contact.html">Contact</a></button>
+        </div>
+
+      </div>
+
+      <div id="up"></div>
+    </header>
+
+<main>
+  <div class="row contact-plot middleContent p-3 mb-5 bg-white">
+    <div class="col-12">
+
+      <br>
+
+      <form id="register" class="shadow" action="" method="post">
+        <h2>Register</h2>
+
+        <div class="form-row ">
+          <div class="form-group col-md-6">
+            <label for="inputAfterName">Aftername</label>
+            <input type="text" name="afterName" class="form-control" id="inputafterName" placeholder="aftername">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputName">Name</label>
+            <input type="text" name="name" class="form-control" id="inputName" placeholder="name">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Age</label>
+            <input type="text" name="age" class="form-control" id="inputAge" placeholder="age">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" name="emailSignin" class="form-control" id="inputEmail4" placeholder="example.example@gmail.com">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputPassword4">Password</label>
+            <input type="password" name="passSignin" class="form-control" id="inputPassword1" placeholder="pass">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputPassword4">Password</label>
+            <input type="password" name="passSignin" class="form-control" id="inputPassword2" placeholder="reply">
+          </div>
+        </div>
+
+        <fieldset class="form-group">
+          <div class="row">
+            <div class="col-lg-6 col-sm-6 col-md-6">
+              <!-- <legend class="col-form-label pt-0">Gender</legend> -->
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="option1">
+                <label class="form-check-label" for="gridRadios1">Male</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">Female</label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gender" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">Else</label>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" name="agree" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck">I agree to the terms of service</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <button type="submit" name="signin" class="btn btn-dark" id="submitSignIn" onclick="pageRedirect();"><i class="fas fa-sign-in-alt"></i> Sign in </button>
+          <!-- <input type="button" name="signin" value="Sign in" id="submit"> -->
+        </fieldset>
+
+      </form>
+
+        <br>
+
+      <form id="login" action="" class="shadow" method="post">
+        <h2>Login</h2>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" name="emailLogin" class="form-control" id="inputEmail" placeholder="e-mail">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" name="passLogin" class="form-control" id="inputPassword3" placeholder="password">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" name="rememberMe" type="checkbox" id="gridCheck2">
+                <label class="form-check-label" for="gridCheck">Remember me</label>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" name="login" value="" class="btn btn-dark" id="submitLogIn" onclick="pageRedirect();"><i class="fas fa-sign-in-alt"></i> Login </button>
+                <div id="message"></div>
+              </div>
+            </div>
+          </form>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="loader"></div>
+          </div>
+
+        </div>
+
+      <!-- <?php
+
+      //**********************************
+      //Function to avoid danger code.
+      //**********************************
+        function test_input($data){
+          $data = trim($data);
+          $data = stripslashes($data);
+          $data = htmlspecialchars($data);
+          return $data;
+        }
+
+        //**********************************
+        //Sign in
+        //**********************************
+        if (isset($_POST['signin'])) {
+
+          $emailSignin = test_input($_POST['emailSignin']);
+          $passSignin = test_input($_POST['passSignin']);
+          $afterName = test_input($_POST['afterName']);
+          $name = test_input($_POST['name']);
+          $age = test_input($_POST['age']);
+
+          if ($emailSignin == "" or
+          $passSignin == "" or
+          $afterName == "" or
+          $name == "" or
+          $age == "" or
+          is_numeric($age) == false)
+          {
+            echo "<br><h4>Please input right values in order to register.</h4>";
+          }
+          else {
+            echo "<br><h5>Registration is complete!<h5>";
+          }
+        }
+
+        //**********************************
+        //Login
+        //**********************************
+        if (isset($_POST['login'])){
+
+          $emailLogin = test_input($_POST['emailLogin']);
+          $passLogin = test_input($_POST['passLogin']);
+
+          if ($emailLogin == "m.h.@hotmail.com" AND $passLogin == "musichospital") {
+            echo "<br><h5>Welcome!<h5>";
+          }
+          else {
+            echo "<br><h4>Access denied.</h4>";
+          }
+        }
+       ?> -->
+
+       <!-- <input type="button" name="login" value="Back to homepage" id="submit" onclick="pageRedirect();"> -->
+       <button type="submit" name="" value="" class="btn btn-dark" id="submit"
+       onclick="pageRedirect();"><i class="fas fa-angle-left"></i>Home</button>
+
+    </div>
+
+  </div>
+
+<div class="contactBottom"></div>
+
+</main>
+
+<a href="#up" class="btn btn-lg btn-light sticky"><i class="fas fa-sort-up"></i></a>
+
+<div class="byline">
+  <p class="for-font-size"><span class="fa fa-map-marker"></span> Lund, Sweden </p>
+  <p class="for-font-size"><span class="fa fa-envelope"></span> m.h@hotmail.com</p>
+  <p class="for-font-size"><span class="fa fa-phone"></span> 046-358 52 43 </p>
+
+  <h6>Follow on:
+    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+  </h6>
+</div>
+
+<footer>
+  <h6>© Copyright SG 2020 - Music Hospital</h6>
+
+  <img src="img/website-main-icon.png" alt="" class="footherLogo">
+
+</footer>
+
+<script src="main-script.js" type="text/javascript"></script>
+
+</body>
+</html>
